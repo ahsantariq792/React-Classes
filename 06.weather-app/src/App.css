@@ -1,0 +1,115 @@
+.main-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  text-align: center;
+}
+
+.main{
+  border: 2px solid black;
+  border-radius: 10px;
+  text-transform: capitalize;
+  line-height: 16px;
+
+}
+
+
+.head{
+  font-size: 28px;
+  font-weight: 800;
+  font-family: cursive;
+  color: red;
+  margin-top: 20%;
+}
+
+
+
+#search{
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.data{
+  line-height: 10px;
+}
+
+
+.temperature{
+  font-size: 42px;
+  margin-bottom: 12px;
+
+}
+
+
+
+.condition{
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: corbel;
+
+}
+
+.Dark {
+  background-color: #202124;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.Bright {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+
+.changeMode{
+  position: relative;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  height: 50px;
+  width: 180px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.interface{
+  height: 120vh;
+}
+
+.rain{
+  background-color: blue;
+}
+
+.lat{
+  position: relative;
+  top: 10px;
+
+}
+
+
+.location{
+  line-height: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
