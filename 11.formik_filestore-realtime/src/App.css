@@ -1,0 +1,61 @@
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 2%;
+  justify-content: space-between;
+}
+
+#btn{
+  margin: 5%;
+}
+
+form .box{
+  margin: 2% !important;
+}
+
+
+.main{
+  width: 60%;
+  position: relative;
+  top: 10%;
+  left: 20%;
+}
+
+.details{
+  position: relative;
+  top: 10%;
+  left: 35%;
+}
+
+.item{
+  position: relative;
+  left: 40%;
+}
+
+h2{
+  font-family: cursive;
+  font: 38px;
+  background-color: aqua;
+  width: fit-content;
+  position: relative;
+  left: 10%;
+}
+
+#item{
+  font-weight: bolder;
+  font-size: 28px;
+  font-family: cursive;
+}
+
+#item button{
+  margin-left: 16px;
+  outline: none;
+  border: none;
+
+}
+
+h1{
+  position: relative;
+  left: 40%;
+}

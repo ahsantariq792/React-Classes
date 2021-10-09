@@ -1,0 +1,24 @@
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 2%;
+  justify-content: space-between;
+}
+
+#btn{
+  margin: 5%;
+}
+
+form .box{
+  margin: 2% !important;
+}
+
+
+.main{
+  width: 60%;
+  position: relative;
+  top: 10%;
+  left: 20%;
+}
+
