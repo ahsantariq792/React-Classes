@@ -1,8 +1,10 @@
 import io from 'socket.io-client';
+import { baseurl } from './core';
 
 // const socket = io("https://myap_name.herokuapp.com"); // to connect hosted server on heroku
+// const socket = io(baseurl);
 
-const socket = io("http://localhost:5001"); // to connect with locally running Socker.io server
+const socket = io("http://localhost:5000"); // to connect with locally running Socker.io server
 
 socket.on('connect', function () {
     console.log("connected")
