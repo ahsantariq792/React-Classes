@@ -1,5 +1,5 @@
 import io from 'socket.io-client';
-import { baseurl } from './core';
+// import { baseurl } from './core';
 
 // const socket = io("https://myap_name.herokuapp.com"); // to connect hosted server on heroku
 // const socket = io(baseurl);
